@@ -1,0 +1,22 @@
+{
+  "name": "hateip",
+  "version": "0.0.1",
+  "description": "A tool for who hate enter ip everytime.",
+  "keywords": [
+    "ddns",
+    "node",
+    "ip"
+  ],
+  "author": "xunuo <i@xunuo.com>",
+  "repository": "xunuo/hateip",
+  "bin": {
+    "hateip": "bin/run"
+  },
+  "dependencies": {
+    "commander": "^2.8.1",
+    "ip": "^0.3.2",
+    "request": "^2.55.0"
+  },
+  "analyze": true,
+  "license": "MIT"
+}
