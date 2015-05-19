@@ -39,9 +39,9 @@ var hateip = require('hateip');
 hateip.run({
     name : 'snow',
     ip : '127.0.0.1', // [optional] default binding your local ip.
-    withPac : argv['withPac'], // [optional] if start pac server.
-    pacPort : argv['pacPort'], // [optional] pac server port, default: 1234.
-    pacProxyPort : argv['pacProxyPort'] // [optional] pac proxy port, default: 8888, just like Charles proxy default port.
+    withPac : true, // [optional] if start pac server.
+    pacPort : 1234, // [optional] pac server port, default: 1234.
+    pacProxyPort : 8888 // [optional] pac proxy port, default: 8888, just like Charles proxy default port.
 });
 ```
 
