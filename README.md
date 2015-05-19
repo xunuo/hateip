@@ -16,6 +16,22 @@ npm install hateip -g
 hateip --name snow [--ip 127.0.0.1 --with-pac --pac-port 1234 --pac-proxy-port 8888]
 ```
 
+- with bin & nohup
+
+```
+## start
+nohup hateip --name snow --with-pac >> ./hateip.log &
+# wait a moment
+cat ./hateip.log
+```
+
+```
+## stop
+jobs -l
+kill %id
+rm ./hateip.log
+```
+
 - with api
   
 ```
