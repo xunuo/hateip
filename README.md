@@ -32,6 +32,6 @@ hateip.run({
 ---
 
 > Then you can :  
-> > Ping : snow.hateip.com 
-> > Get pac file : http://snow.hateip.com:1234  
-> > Use proxy by :  snow.hateip.com:8888  
+>> Ping : snow.hateip.com  
+>> Get pac file : http://snow.hateip.com:1234  
+>> Use proxy by :  snow.hateip.com:8888  
