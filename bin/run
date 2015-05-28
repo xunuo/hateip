@@ -9,6 +9,7 @@ argv
   .version(packageJson.version)
   .option('-n, --name [subdomain]', 'hateip.com subdomain name. [name].hateip.com etc.')
   .option('-i, --ip [ip]', 'custom ip.')
+  .option('-p, --public-ip [boolean]', 'register with public IP.')
   .option('--with-pac [boolean]', 'with pac server.')
   .option('--pac-port [pac-port]', 'pac server port.')
   .option('--pac-proxy-port [proxy-port]', 'pac server port.')
@@ -17,7 +18,9 @@ argv
 hateip.run({
     name : argv['name'],
     ip : argv['ip'],
+    publicIp : argv['publicIp'],
     withPac : argv['withPac'],
     pacPort : argv['pacPort'],
-    pacProxyPort : argv['pacProxyPort']
+    pacProxyPort : argv['pacProxyPort'],
+    fromBin : true
 });

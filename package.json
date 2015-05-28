@@ -1,11 +1,15 @@
 {
   "name": "hateip",
-  "version": "0.0.8",
+  "version": "1.0.2",
   "description": "A tool for who hate enter ip everytime.",
   "keywords": [
-    "ddns",
+    "DDNS",
     "node",
-    "ip"
+    "ip",
+    "short",
+    "domain",
+    "hateip",
+    "hate"
   ],
   "author": "xunuo <i@xunuo.com>",
   "repository": "xunuo/hateip",
@@ -15,6 +19,7 @@
   "dependencies": {
     "commander": "^2.8.1",
     "ip": "^0.3.2",
+    "q": "^1.4.1",
     "request": "^2.55.0"
   },
   "analyze": true,
