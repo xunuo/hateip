@@ -1,8 +1,8 @@
 # HateIP
 
-DDNS serve for who hate enter ip everytime.
+HateIP is a DDNS serve for who hate enter ip everytime.
 
-Auto get your Local/Public IP address and association with the domain : {yourname}.hateip.com
+Auto get your Local/Public IP address and association with the domain : {name}.hateip.com
 
 
 ## Install
@@ -12,6 +12,11 @@ npm install hateip -g
 ```
 
 ## Usage
+
+- with gulp
+
+    [gulp-hateip](https://www.npmjs.com/package/gulp-hateip)
+
 
 - with bin
   
