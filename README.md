@@ -46,7 +46,15 @@ hateip.run({
     // withPac : true, // [optional] if start pac server.
     // pacPort : 1234, // [optional] pac server port, default: 1234.
     // pacProxyPort : 8888 // [optional] pac proxy port, default: 8888, just like Charles proxy default port.
-})
+}).then(
+function(res){
+    console.log(res);
+},
+function(error){
+    console.log(error);
+}
+);
+
 ```
 
 ---
