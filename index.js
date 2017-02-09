@@ -31,7 +31,7 @@ var run = function(args){
     var registerHateIp = function(){
         var rand = Math.floor(Math.random()*100000000).toString(),
             getOptions = {
-                url: 'http://hateip.com:999/',
+                url: 'http://hateip.com:8888/',
                 json: true,
                 qs: {
                     name: name,
