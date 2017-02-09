@@ -9,14 +9,10 @@ Auto get your Local/Public IP address and association with the domain : {name}.h
 
 ## Usage
 
-- with gulp
 
-    [gulp-hateip](https://www.npmjs.com/package/gulp-hateip)
+### with bin
 
-
-- with bin
-
-### Install
+- Install
 
 ```
 npm install hateip -g
@@ -26,7 +22,7 @@ npm install hateip -g
 hateip --name snow [ [--ip 127.0.0.1] [--public-ip true] [--with-pac --pac-port 1234 --pac-proxy-port 8888] ]
 ```
 
-- with bin & nohup
+### with bin & nohup
 
 ```
 ## start
@@ -42,9 +38,9 @@ kill %id
 rm ./hateip.log
 ```
 
-- with api
+### with api
     
-### Install
+- Install
 
 ```
 npm install hateip
@@ -69,6 +65,10 @@ function(error){
 );
 
 ```
+
+### with gulp
+
+    [gulp-hateip](https://www.npmjs.com/package/gulp-hateip)
 
 ---
 
