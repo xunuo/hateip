@@ -5,11 +5,7 @@ HateIP is a DDNS serve for who hate enter ip everytime.
 Auto get your Local/Public IP address and association with the domain : {name}.hateip.com
 
 
-## Install
 
-```
-npm install hateip -g
-```
 
 ## Usage
 
@@ -19,6 +15,12 @@ npm install hateip -g
 
 
 - with bin
+
+### Install
+
+```
+npm install hateip -g
+```
   
 ```
 hateip --name snow [ [--ip 127.0.0.1] [--public-ip true] [--with-pac --pac-port 1234 --pac-proxy-port 8888] ]
@@ -41,7 +43,13 @@ rm ./hateip.log
 ```
 
 - with api
-  
+    
+### Install
+
+```
+npm install hateip
+```
+
 ```
 var hateip = require('hateip');
 hateip.run({
